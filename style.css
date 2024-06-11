@@ -1,0 +1,99 @@
+* {
+  font-family: "Special Elite", system-ui;
+  font-weight: 400;
+  font-size: 20px;
+  font-style: normal;
+}
+
+body {
+  margin: auto;
+  padding: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+#titulo {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-size: 56px;
+  font-style: justify;
+  color: #696969;
+  margin-bottom: 5px;
+
+  text-shadow: 5px 5px 10px black;
+}
+
+.btn{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+  text-decoration: none;
+  width: 320px;
+  height: 40px;
+  display: flex;
+  justify-content: space-around;
+  cursor: pointer;
+  transition: background 0.3s;
+  box-shadow: 5px 5px 5px black;
+
+  background: #333;
+  color: white;
+}
+
+button:hover {
+  background: #222;
+  color: lightgray;
+}
+
+#principal {
+  background-image: url("imagens/wallpaper_darkblue.jpg");
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.principal {
+  display: flex;
+  background-image: url("imagens/wallpaper_papel.jpg");
+  margin: 35px;
+  flex-direction: column;
+  align-items: center;
+  background-color: gray;
+  border-radius: 2px;
+}
+
+img {
+  margin: 10px;
+  margin-bottom: 20px;
+  margin-top: 5px;
+  width: 512px;
+  height: 512px;
+}
+
+p {
+  margin: 25px;
+  text-align: justify;
+  color: black;
+}
+
+#inicial {
+  background-image: url(imagens/wallpaper_papel.jpg);
+  margin: 10px;
+  border-radius: 2px;
+}
+
+#audio {
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+
+
